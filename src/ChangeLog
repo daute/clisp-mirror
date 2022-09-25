@@ -1,3 +1,9 @@
+2022-09-25  Bruno Haible  <bruno@clisp.org>
+
+	Fix a build error on Cygwin.
+	Reported by Vibhu Mohindra <vibs29@hotmail.com>.
+	* unix.d (CR): Push macro definition aside while including <windows.h>.
+
 2020-06-22  Bruno Haible  <bruno@clisp.org>
 
 	Fix a build error on Cygwin in C++ mode.
